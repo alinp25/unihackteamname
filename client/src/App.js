@@ -16,6 +16,7 @@ import PrivateRoute from "./components/private-route/PrivateRoute";
 import Dashboard from "./components/dashboard/Dashboard";
 import Maps from "./components/maps/Maps";
 import Monitor from "./components/monitor/Monitor";
+import Indoor from "./components/indoor/Indoor";
 
 // Check for token to keep the user logged in
 if (localStorage.jwtToken) {
@@ -54,6 +55,7 @@ class App extends React.Component {
               <PrivateRoute exact path="/dashboard" component={Dashboard} />
               <PrivateRoute exact path="/maps" component={Maps} />
               <PrivateRoute exact path="/monitor" component={Monitor} />
+              <PrivateRoute exact path="/indoor" component={Indoor} />
             </Switch>
           </div>
         </Router>

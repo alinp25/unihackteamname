@@ -19,7 +19,7 @@ class Landing extends Component {
         return (
             <div className="row" height="100vh" style={{marginTop: 110}}>
                 <div className="col s6 center-align">
-                    <Carousel infiniteLoop dynamicHeight showThumbs={false} autoplay={true} showStatus={false}>
+                    <Carousel infiniteLoop emulateTouch dynamicHeight showThumbs={false} autoplay={true} showStatus={false}>
                         <div>
                             <img src={firstImage} style={carouselImage}/>
                         </div>

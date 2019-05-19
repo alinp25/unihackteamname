@@ -44,7 +44,15 @@ class Navbar extends Component {
                                         Monitor
                                     </Link>
                                 </div>
-                                <div className="col s1 offset-s8 center-align">
+                                <div className="col s1 center-align">
+                                    <Link to="/indoor"
+                                        style={{fontFamily: 'monospace', fontSize: 24}}
+                                        className="black-text"
+                                        >
+                                        Indoor
+                                    </Link>
+                                </div>
+                                <div className="col s1 offset-s7 center-align">
                                     <Link to="/"
                                         style={{fontFamily: 'monospace', fontSize: 24}}
                                         className="black-text"
