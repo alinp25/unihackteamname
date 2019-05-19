@@ -1,0 +1,4 @@
+#Sat May 18 16:17:52 EEST 2019
+base.0=/home/eusebiu/Desktop/Proiect/android/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex
